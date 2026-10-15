@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Solana home agent</title>
+<style>
+  :root { --gold:#e0a83c; --ink:#14191b; --paper:#f4efe6; }
+  body { margin:0; font:16px/1.7 Georgia, serif; background:var(--ink); color:var(--paper); }
+  .wrap { max-width:680px; margin:0 auto; padding:48px 24px 72px; }
+  h1 { color:var(--gold); font-weight:600; letter-spacing:.05em; }
+  h2 { color:var(--gold); font-size:1rem; letter-spacing:.08em; text-transform:uppercase; margin-top:2em; }
+  a { color:var(--gold); }
+  ul { padding-left:1.2em; }
+  footer { margin-top:3em; padding-top:1.2em; border-top:1px solid #2a3234; font-size:.85rem; color:#8a9891; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Privacy Policy</h1>
+  <p><em>Solana — personal home agent. Last updated: October 15, 2026.</em></p>
+
+  <h2>Who we are</h2>
+  <p>
+    Solana is a personal, self-hosted assistant operated by Steven Nunez
+    ("the owner"). It serves exactly one user — the owner — and runs on the
+    owner's own hardware at home. There are no other users, accounts, or
+    visitors to the service itself.
+  </p>
+
+  <h2>What data it accesses</h2>
+  <ul>
+    <li><strong>Google Calendar data</strong>: events, calendars, and event
+        details the agent reads or writes while acting on the owner's behalf,
+        under the owner's own OAuth grant for the
+        <code>https://www.googleapis.com/auth/calendar</code> scope.</li>
+    <li><strong>Basic account info</strong>: the owner's email address and
+        profile name, used solely to identify the account for the grant.</li>
+    <li><strong>Agent conversation logs</strong>: messages between the owner
+        and the agent, stored locally on the owner's server so the assistant
+        can remember context.</li>
+    <li><strong>Media the owner sends</strong> (e.g. photos on a messaging
+        channel), stored locally on the owner's server.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <ul>
+    <li>Creating, updating, summarizing, and reminding about calendar events.</li>
+    <li>Producing personal briefings, schedules, and home automations.</li>
+    <li>Improving the assistant's memory of the owner's stated preferences.</li>
+  </ul>
+  <p>Data is <strong>never</strong> used for advertising, profiling, or
+  third-party analytics of any kind.</p>
+
+  <h2>Where the data is processed and stored</h2>
+  <p>
+    Processing and storage happen on the owner's local server inside the
+    owner's home. The only network calls made with this data are to Google's
+    own APIs to complete the requested calendar operations, and to the
+    messaging transport the owner uses to talk to the assistant. No other
+    cloud services receive the data.
+  </p>
+
+  <h2>Sharing</h2>
+  <p>
+    The owner's data is not sold, rented, or shared with third parties. It is
+    not disclosed to law enforcement except as compelled by law directed at the
+    owner personally, which the owner handles personally.
+  </p>
+
+  <h2>Retention and deletion</h2>
+  <p>
+    Calendar data lives in Google under the owner's account. Local copies
+    (conversations, logs, media) live on the owner's server and can be deleted
+    at any time by the owner. The OAuth grant — and with it all API access —
+    can be revoked instantly at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+    Revoking the grant stops all access immediately.
+  </p>
+
+  <h2>This website</h2>
+  <p>
+    These informational pages are static HTML. They set no cookies, run no
+    JavaScript, and load no third-party trackers. Visiting them reveals only
+    ordinary, anonymous web-server log entries (timestamp, requested page) held
+    by the site host.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy: Steven Nunez —
+    <a href="mailto:nunez@duck.com">nunez@duck.com</a>.
+  </p>
+
+  <footer>
+    <a href="https://nunez.github.io/">Home</a> · <a href="https://nunez.github.io/t/f7cadc00-7ede36f6/">Terms of Service</a>
+  </footer>
+</div>
+</body>
+</html>
